@@ -120,8 +120,9 @@ public class XYZMixxer {
 		lastConfig = ClusterConfig.clusterWorkerPool;
 		if (lastConfig == null) {
 			lastConfig = new ThreadPoolExecutorConfig();
+			lastConfig.workerName = "Cluster Event Callback Worker";
 		}
-		executor = new SimpleThreadPoolExecutor(lastConfig, "Cluster Event Callback Worker");
+		executor = new SimpleThreadPoolExecutor(lastConfig);
 		executor.allowCoreThreadTimeOut(lastConfig.threadTimeout);
 	}
 	
