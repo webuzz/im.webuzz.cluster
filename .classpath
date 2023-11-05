@@ -6,7 +6,8 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/im.webuzz.http"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/im.webuzz.nio"/>
 	-->
-	<classpathentry combineaccessrules="false" kind="src" path="/im.webuzz.threadpool"/>
+	<classpathentry kind="var" path="M2_REPO/im/webuzz/webuzz-threadpool/2.1.4/webuzz-threadpool-2.1.4.jar" sourcepath="M2_REPO/im/webuzz/webuzz-threadpool/2.1.4/webuzz-threadpool-2.1.4-sources.jar"/>
+	<!--classpathentry kind="src" path="/im.webuzz.threadpool"/-->
 	<classpathentry combineaccessrules="false" kind="src" path="/net.sf.j2s.ajax"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

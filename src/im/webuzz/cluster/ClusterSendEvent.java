@@ -7,7 +7,6 @@ import net.sf.j2s.ajax.SimpleRPCRunnable;
 import net.sf.j2s.ajax.annotation.SimpleIn;
 import net.sf.j2s.ajax.annotation.SimpleOut;
 
-import im.webuzz.cluster.ClusterServer;
 import im.webuzz.cluster.xyz.XYZMixxer;
 
 /**

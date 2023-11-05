@@ -64,7 +64,7 @@ public class ClosePipe extends SimpleRPCRunnable {
 	}
 	
 	public static void closePipe(String pipeKey) {
-		SimplePipeRunnable p = SimplePipeHelper.getPipe(pipeKey);
+		SimplePipeRunnable p = SimplePipeHelper.getPipe(pipeKey, true);
 		if (p != null) {
 			if (p instanceof Login2ServicePipe) {
 				p.pipeClosed();
